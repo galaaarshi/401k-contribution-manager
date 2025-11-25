@@ -144,28 +144,7 @@ Future Value = Present Value × (1 + annual_return)^years
 4. **Express**: Minimal, flexible backend framework
 5. **In-memory Storage**: Simple for demo; production would use PostgreSQL
 
-## 🚀 Future Enhancements (Next Week)
-
-### 1. Employer Match Visualization (Priority: High)
-**Why**: Employer matching is "free money" - showing this clearly can increase user contributions by 20-30%
-- Visual indicator showing matched amounts
-- Warning when not maximizing match
-- Annual match projection
-
-### 2. Multiple Investment Scenarios (Priority: High)
-**Why**: Users want to see best/worst case scenarios
-- Conservative (4% return)
-- Moderate (7% return)
-- Aggressive (10% return)
-- Interactive scenario comparison
-
-### 3. Catch-up Contributions for 50+ (Priority: Medium)
-**Why**: IRS allows additional contributions for users 50+
-- Auto-detect age eligibility
-- Show increased contribution limits
-- Calculate tax advantages
-
-### Additional Features
+### Additional Features (furter scope)
 - Historical contribution chart
 - Tax savings calculator (Traditional vs Roth)
 - Mobile app with push notifications
@@ -194,11 +173,6 @@ lsof -ti:3001 | xargs kill -9
 # Kill process on port 3000 (frontend)
 lsof -ti:3000 | xargs kill -9
 ```
-
-**CORS errors?**
-- Ensure backend is running on port 3001
-- Check that frontend proxy is configured in package.json
-
 
 Aarshi Gala
 
