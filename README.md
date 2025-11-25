@@ -144,12 +144,10 @@ Future Value = Present Value × (1 + annual_return)^years
 4. **Express**: Minimal, flexible backend framework
 5. **In-memory Storage**: Simple for demo; production would use PostgreSQL
 
-### Additional Features (furter scope)
-- Historical contribution chart
-- Tax savings calculator (Traditional vs Roth)
-- Mobile app with push notifications
-- PDF report generation
-- Integration with payroll systems
+### Additional Features (future scope)
+- Feature1: AI-Powered Contribution Optimizer
+- Feature2: Family Financial Planning Mode
+- Feature3: Redis Caching Layer for Performance
 
 ## 🧪 Testing
 
