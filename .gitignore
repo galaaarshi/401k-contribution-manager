@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Production
+/build
+/frontend/build
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
