@@ -22,7 +22,7 @@ A full-stack web application for managing 401(k) retirement plan contributions w
 ### High-Level Design
 ```
 ┌─────────────┐         HTTP/REST        ┌─────────────┐
-│   React     │ ◄─────────────────────► │   Express   │
+│   React     │ ◄─────────────────────►  │   Express   │
 │   Frontend  │      JSON Data           │   Backend   │
 │             │                          │             │
 └─────────────┘                          └──────┬──────┘
